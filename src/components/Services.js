@@ -36,11 +36,11 @@ export default class Services extends Component {
                <div className="services-center">
                    {this.state.services.map((item,index) => {
                        return (
-                        <action key={index} className="service">
+                        <section key={index} className="service">
                             <span>{item.icon}</span>
                             <h6>{item.title}</h6>
                             <p>{item.info}</p>
-                        </action>
+                        </section>
                        )
                    })}
                </div>
